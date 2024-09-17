@@ -1,12 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .first {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -29,10 +32,31 @@ body {
 
 .content {
     display: flex;
-    
+    justify-content: space-around;
+    margin-bottom: 80px;
 }
 
-ul, .text {
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.sign-up .continue {
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    max-width: 100px;
+    padding: 4px;
+}
+
+.text {
+    margin-bottom: 8px;
+}
+
+a, .text {
     font-size: 18px;
     color: #e5e7eb;
 }
